@@ -30,7 +30,7 @@ if($val['user_id']!=''){
     $_SESSION['session_id_check'] = session_id();
     $_SESSION['user_name'] = $val['user_name'];
 
-    header("Location: home.php");
+    header("Location: typing.php");
     exit();
 }else{
     header("Location: index.php");
